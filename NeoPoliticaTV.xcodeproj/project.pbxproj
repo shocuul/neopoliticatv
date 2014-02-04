@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECC97DB18A16C170068ACA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DA18A16C170068ACA3 /* Foundation.framework */; };
+		CECC97DD18A16C180068ACA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DC18A16C180068ACA3 /* CoreGraphics.framework */; };
+		CECC97DF18A16C180068ACA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DE18A16C180068ACA3 /* UIKit.framework */; };
+		CECC97E518A16C180068ACA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECC97E318A16C180068ACA3 /* InfoPlist.strings */; };
+		CECC97E718A16C180068ACA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC97E618A16C180068ACA3 /* main.m */; };
+		CECC97EB18A16C180068ACA3 /* NPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC97EA18A16C180068ACA3 /* NPAppDelegate.m */; };
+		CECC97EE18A16C180068ACA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC97EC18A16C180068ACA3 /* Main.storyboard */; };
+		CECC97F118A16C180068ACA3 /* NPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC97F018A16C180068ACA3 /* NPFirstViewController.m */; };
+		CECC97F418A16C180068ACA3 /* NPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC97F318A16C180068ACA3 /* NPSecondViewController.m */; };
+		CECC97F618A16C180068ACA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC97F518A16C180068ACA3 /* Images.xcassets */; };
+		CECC97FD18A16C180068ACA3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97FC18A16C180068ACA3 /* XCTest.framework */; };
+		CECC97FE18A16C180068ACA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DA18A16C170068ACA3 /* Foundation.framework */; };
+		CECC97FF18A16C180068ACA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DE18A16C180068ACA3 /* UIKit.framework */; };
+		CECC980718A16C180068ACA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECC980518A16C180068ACA3 /* InfoPlist.strings */; };
+		CECC980918A16C180068ACA3 /* NeoPoliticaTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC980818A16C180068ACA3 /* NeoPoliticaTVTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECC980018A16C180068ACA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECC97CF18A16C170068ACA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECC97D618A16C170068ACA3;
+			remoteInfo = NeoPoliticaTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECC97D718A16C170068ACA3 /* NeoPoliticaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoPoliticaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC97DA18A16C170068ACA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CECC97DC18A16C180068ACA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CECC97DE18A16C180068ACA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CECC97E218A16C180068ACA3 /* NeoPoliticaTV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeoPoliticaTV-Info.plist"; sourceTree = "<group>"; };
+		CECC97E418A16C180068ACA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CECC97E618A16C180068ACA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECC97E818A16C180068ACA3 /* NeoPoliticaTV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeoPoliticaTV-Prefix.pch"; sourceTree = "<group>"; };
+		CECC97E918A16C180068ACA3 /* NPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPAppDelegate.h; sourceTree = "<group>"; };
+		CECC97EA18A16C180068ACA3 /* NPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPAppDelegate.m; sourceTree = "<group>"; };
+		CECC97ED18A16C180068ACA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECC97EF18A16C180068ACA3 /* NPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPFirstViewController.h; sourceTree = "<group>"; };
+		CECC97F018A16C180068ACA3 /* NPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPFirstViewController.m; sourceTree = "<group>"; };
+		CECC97F218A16C180068ACA3 /* NPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSecondViewController.h; sourceTree = "<group>"; };
+		CECC97F318A16C180068ACA3 /* NPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSecondViewController.m; sourceTree = "<group>"; };
+		CECC97F518A16C180068ACA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECC97FB18A16C180068ACA3 /* NeoPoliticaTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoPoliticaTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC97FC18A16C180068ACA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CECC980418A16C180068ACA3 /* NeoPoliticaTVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeoPoliticaTVTests-Info.plist"; sourceTree = "<group>"; };
+		CECC980618A16C180068ACA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CECC980818A16C180068ACA3 /* NeoPoliticaTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoPoliticaTVTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECC97D418A16C170068ACA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC97DD18A16C180068ACA3 /* CoreGraphics.framework in Frameworks */,
+				CECC97DF18A16C180068ACA3 /* UIKit.framework in Frameworks */,
+				CECC97DB18A16C170068ACA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC97F818A16C180068ACA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC97FD18A16C180068ACA3 /* XCTest.framework in Frameworks */,
+				CECC97FF18A16C180068ACA3 /* UIKit.framework in Frameworks */,
+				CECC97FE18A16C180068ACA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECC97CE18A16C170068ACA3 = {
+			isa = PBXGroup;
+			children = (
+				CECC97E018A16C180068ACA3 /* NeoPoliticaTV */,
+				CECC980218A16C180068ACA3 /* NeoPoliticaTVTests */,
+				CECC97D918A16C170068ACA3 /* Frameworks */,
+				CECC97D818A16C170068ACA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECC97D818A16C170068ACA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECC97D718A16C170068ACA3 /* NeoPoliticaTV.app */,
+				CECC97FB18A16C180068ACA3 /* NeoPoliticaTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECC97D918A16C170068ACA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECC97DA18A16C170068ACA3 /* Foundation.framework */,
+				CECC97DC18A16C180068ACA3 /* CoreGraphics.framework */,
+				CECC97DE18A16C180068ACA3 /* UIKit.framework */,
+				CECC97FC18A16C180068ACA3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECC97E018A16C180068ACA3 /* NeoPoliticaTV */ = {
+			isa = PBXGroup;
+			children = (
+				CECC97E918A16C180068ACA3 /* NPAppDelegate.h */,
+				CECC97EA18A16C180068ACA3 /* NPAppDelegate.m */,
+				CECC97EC18A16C180068ACA3 /* Main.storyboard */,
+				CECC97EF18A16C180068ACA3 /* NPFirstViewController.h */,
+				CECC97F018A16C180068ACA3 /* NPFirstViewController.m */,
+				CECC97F218A16C180068ACA3 /* NPSecondViewController.h */,
+				CECC97F318A16C180068ACA3 /* NPSecondViewController.m */,
+				CECC97F518A16C180068ACA3 /* Images.xcassets */,
+				CECC97E118A16C180068ACA3 /* Supporting Files */,
+			);
+			path = NeoPoliticaTV;
+			sourceTree = "<group>";
+		};
+		CECC97E118A16C180068ACA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECC97E218A16C180068ACA3 /* NeoPoliticaTV-Info.plist */,
+				CECC97E318A16C180068ACA3 /* InfoPlist.strings */,
+				CECC97E618A16C180068ACA3 /* main.m */,
+				CECC97E818A16C180068ACA3 /* NeoPoliticaTV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECC980218A16C180068ACA3 /* NeoPoliticaTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECC980818A16C180068ACA3 /* NeoPoliticaTVTests.m */,
+				CECC980318A16C180068ACA3 /* Supporting Files */,
+			);
+			path = NeoPoliticaTVTests;
+			sourceTree = "<group>";
+		};
+		CECC980318A16C180068ACA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECC980418A16C180068ACA3 /* NeoPoliticaTVTests-Info.plist */,
+				CECC980518A16C180068ACA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECC97D618A16C170068ACA3 /* NeoPoliticaTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC980C18A16C180068ACA3 /* Build configuration list for PBXNativeTarget "NeoPoliticaTV" */;
+			buildPhases = (
+				CECC97D318A16C170068ACA3 /* Sources */,
+				CECC97D418A16C170068ACA3 /* Frameworks */,
+				CECC97D518A16C170068ACA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoPoliticaTV;
+			productName = NeoPoliticaTV;
+			productReference = CECC97D718A16C170068ACA3 /* NeoPoliticaTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECC97FA18A16C180068ACA3 /* NeoPoliticaTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC980F18A16C180068ACA3 /* Build configuration list for PBXNativeTarget "NeoPoliticaTVTests" */;
+			buildPhases = (
+				CECC97F718A16C180068ACA3 /* Sources */,
+				CECC97F818A16C180068ACA3 /* Frameworks */,
+				CECC97F918A16C180068ACA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECC980118A16C180068ACA3 /* PBXTargetDependency */,
+			);
+			name = NeoPoliticaTVTests;
+			productName = NeoPoliticaTVTests;
+			productReference = CECC97FB18A16C180068ACA3 /* NeoPoliticaTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECC97CF18A16C170068ACA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "NeoPolitica TV";
+				TargetAttributes = {
+					CECC97FA18A16C180068ACA3 = {
+						TestTargetID = CECC97D618A16C170068ACA3;
+					};
+				};
+			};
+			buildConfigurationList = CECC97D218A16C170068ACA3 /* Build configuration list for PBXProject "NeoPoliticaTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECC97CE18A16C170068ACA3;
+			productRefGroup = CECC97D818A16C170068ACA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECC97D618A16C170068ACA3 /* NeoPoliticaTV */,
+				CECC97FA18A16C180068ACA3 /* NeoPoliticaTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECC97D518A16C170068ACA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC97F618A16C180068ACA3 /* Images.xcassets in Resources */,
+				CECC97E518A16C180068ACA3 /* InfoPlist.strings in Resources */,
+				CECC97EE18A16C180068ACA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC97F918A16C180068ACA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC980718A16C180068ACA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECC97D318A16C170068ACA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC97F418A16C180068ACA3 /* NPSecondViewController.m in Sources */,
+				CECC97F118A16C180068ACA3 /* NPFirstViewController.m in Sources */,
+				CECC97EB18A16C180068ACA3 /* NPAppDelegate.m in Sources */,
+				CECC97E718A16C180068ACA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC97F718A16C180068ACA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC980918A16C180068ACA3 /* NeoPoliticaTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECC980118A16C180068ACA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECC97D618A16C170068ACA3 /* NeoPoliticaTV */;
+			targetProxy = CECC980018A16C180068ACA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECC97E318A16C180068ACA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC97E418A16C180068ACA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CECC97EC18A16C180068ACA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC97ED18A16C180068ACA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECC980518A16C180068ACA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC980618A16C180068ACA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECC980A18A16C180068ACA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CECC980B18A16C180068ACA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECC980D18A16C180068ACA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeoPoliticaTV/NeoPoliticaTV-Prefix.pch";
+				INFOPLIST_FILE = "NeoPoliticaTV/NeoPoliticaTV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CECC980E18A16C180068ACA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeoPoliticaTV/NeoPoliticaTV-Prefix.pch";
+				INFOPLIST_FILE = "NeoPoliticaTV/NeoPoliticaTV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CECC981018A16C180068ACA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NeoPoliticaTV.app/NeoPoliticaTV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeoPoliticaTV/NeoPoliticaTV-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NeoPoliticaTVTests/NeoPoliticaTVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CECC981118A16C180068ACA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NeoPoliticaTV.app/NeoPoliticaTV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeoPoliticaTV/NeoPoliticaTV-Prefix.pch";
+				INFOPLIST_FILE = "NeoPoliticaTVTests/NeoPoliticaTVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECC97D218A16C170068ACA3 /* Build configuration list for PBXProject "NeoPoliticaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC980A18A16C180068ACA3 /* Debug */,
+				CECC980B18A16C180068ACA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC980C18A16C180068ACA3 /* Build configuration list for PBXNativeTarget "NeoPoliticaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC980D18A16C180068ACA3 /* Debug */,
+				CECC980E18A16C180068ACA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECC980F18A16C180068ACA3 /* Build configuration list for PBXNativeTarget "NeoPoliticaTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC981018A16C180068ACA3 /* Debug */,
+				CECC981118A16C180068ACA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECC97CF18A16C170068ACA3 /* Project object */;
+}
