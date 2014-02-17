@@ -7,6 +7,8 @@
 //
 
 #import "NPFirstViewController.h"
+#import "NewsManager.h"
+
 
 @interface NPFirstViewController ()
 
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NewsManager *news = [[NewsManager alloc]init];
+    
+    [news newsWithSlug:@"local"];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

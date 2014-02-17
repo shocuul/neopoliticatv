@@ -22,6 +22,8 @@
 		CECC97FF18A16C180068ACA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DE18A16C180068ACA3 /* UIKit.framework */; };
 		CECC980718A16C180068ACA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECC980518A16C180068ACA3 /* InfoPlist.strings */; };
 		CECC980918A16C180068ACA3 /* NeoPoliticaTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC980818A16C180068ACA3 /* NeoPoliticaTVTests.m */; };
+		CEE98BEA18B2C91200B31715 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE98BE918B2C91200B31715 /* News.m */; };
+		CEE98BEE18B2CBD900B31715 /* NewsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE98BED18B2CBD900B31715 /* NewsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		CECC980418A16C180068ACA3 /* NeoPoliticaTVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeoPoliticaTVTests-Info.plist"; sourceTree = "<group>"; };
 		CECC980618A16C180068ACA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CECC980818A16C180068ACA3 /* NeoPoliticaTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoPoliticaTVTests.m; sourceTree = "<group>"; };
+		CEE98BE818B2C91200B31715 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = News.h; path = NeoPoliticaTV/Model/News.h; sourceTree = "<group>"; };
+		CEE98BE918B2C91200B31715 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = News.m; path = NeoPoliticaTV/Model/News.m; sourceTree = "<group>"; };
+		CEE98BEC18B2CBD900B31715 /* NewsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsManager.h; path = NeoPoliticaTV/Model/NewsManager.h; sourceTree = "<group>"; };
+		CEE98BED18B2CBD900B31715 /* NewsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsManager.m; path = NeoPoliticaTV/Model/NewsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		CECC97CE18A16C170068ACA3 = {
 			isa = PBXGroup;
 			children = (
+				CEE98BEB18B2C91E00B31715 /* Model */,
 				CECC97E018A16C180068ACA3 /* NeoPoliticaTV */,
 				CECC980218A16C180068ACA3 /* NeoPoliticaTVTests */,
 				CECC97D918A16C170068ACA3 /* Frameworks */,
@@ -155,6 +162,17 @@
 				CECC980518A16C180068ACA3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE98BEB18B2C91E00B31715 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE98BE818B2C91200B31715 /* News.h */,
+				CEE98BEC18B2CBD900B31715 /* NewsManager.h */,
+				CEE98BED18B2CBD900B31715 /* NewsManager.m */,
+				CEE98BE918B2C91200B31715 /* News.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE98BEA18B2C91200B31715 /* News.m in Sources */,
 				CECC97F418A16C180068ACA3 /* NPSecondViewController.m in Sources */,
+				CEE98BEE18B2CBD900B31715 /* NewsManager.m in Sources */,
 				CECC97F118A16C180068ACA3 /* NPFirstViewController.m in Sources */,
 				CECC97EB18A16C180068ACA3 /* NPAppDelegate.m in Sources */,
 				CECC97E718A16C180068ACA3 /* main.m in Sources */,
@@ -388,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeoPoliticaTV/NeoPoliticaTV-Prefix.pch";
 				INFOPLIST_FILE = "NeoPoliticaTV/NeoPoliticaTV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +422,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeoPoliticaTV/NeoPoliticaTV-Prefix.pch";
 				INFOPLIST_FILE = "NeoPoliticaTV/NeoPoliticaTV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,6 +489,7 @@
 				CECC980E18A16C180068ACA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CECC980F18A16C180068ACA3 /* Build configuration list for PBXNativeTarget "NeoPoliticaTVTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +498,7 @@
 				CECC981118A16C180068ACA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
