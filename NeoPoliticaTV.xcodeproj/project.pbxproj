@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE01D68018B424A7004E591F /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */; };
+		CE01D68118B424A7004E591F /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67618B424A7004E591F /* ECSlidingAnimationController.m */; };
+		CE01D68218B424A7004E591F /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67918B424A7004E591F /* ECSlidingInteractiveTransition.m */; };
+		CE01D68318B424A7004E591F /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67B18B424A7004E591F /* ECSlidingSegue.m */; };
+		CE01D68418B424A7004E591F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67D18B424A7004E591F /* ECSlidingViewController.m */; };
+		CE01D68518B424A7004E591F /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67F18B424A7004E591F /* UIViewController+ECSlidingViewController.m */; };
+		CE01D68818B425E1004E591F /* NPMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D68718B425E1004E591F /* NPMenuViewController.m */; };
 		CECC97DB18A16C170068ACA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DA18A16C170068ACA3 /* Foundation.framework */; };
 		CECC97DD18A16C180068ACA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DC18A16C180068ACA3 /* CoreGraphics.framework */; };
 		CECC97DF18A16C180068ACA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DE18A16C180068ACA3 /* UIKit.framework */; };
@@ -37,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE01D67318B424A7004E591F /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		CE01D67518B424A7004E591F /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		CE01D67618B424A7004E591F /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		CE01D67718B424A7004E591F /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		CE01D67818B424A7004E591F /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		CE01D67918B424A7004E591F /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		CE01D67A18B424A7004E591F /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		CE01D67B18B424A7004E591F /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		CE01D67C18B424A7004E591F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		CE01D67D18B424A7004E591F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		CE01D67E18B424A7004E591F /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		CE01D67F18B424A7004E591F /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		CE01D68618B425E1004E591F /* NPMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMenuViewController.h; sourceTree = "<group>"; };
+		CE01D68718B425E1004E591F /* NPMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMenuViewController.m; sourceTree = "<group>"; };
 		CECC97D718A16C170068ACA3 /* NeoPoliticaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoPoliticaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECC97DA18A16C170068ACA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CECC97DC18A16C180068ACA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +110,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE01D67218B424A7004E591F /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE01D67318B424A7004E591F /* ECPercentDrivenInteractiveTransition.h */,
+				CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */,
+				CE01D67518B424A7004E591F /* ECSlidingAnimationController.h */,
+				CE01D67618B424A7004E591F /* ECSlidingAnimationController.m */,
+				CE01D67718B424A7004E591F /* ECSlidingConstants.h */,
+				CE01D67818B424A7004E591F /* ECSlidingInteractiveTransition.h */,
+				CE01D67918B424A7004E591F /* ECSlidingInteractiveTransition.m */,
+				CE01D67A18B424A7004E591F /* ECSlidingSegue.h */,
+				CE01D67B18B424A7004E591F /* ECSlidingSegue.m */,
+				CE01D67C18B424A7004E591F /* ECSlidingViewController.h */,
+				CE01D67D18B424A7004E591F /* ECSlidingViewController.m */,
+				CE01D67E18B424A7004E591F /* UIViewController+ECSlidingViewController.h */,
+				CE01D67F18B424A7004E591F /* UIViewController+ECSlidingViewController.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
 		CECC97CE18A16C170068ACA3 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +138,7 @@
 				CECC980218A16C180068ACA3 /* NeoPoliticaTVTests */,
 				CECC97D918A16C170068ACA3 /* Frameworks */,
 				CECC97D818A16C170068ACA3 /* Products */,
+				CE01D67218B424A7004E591F /* ECSlidingViewController */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +168,8 @@
 				CECC97E918A16C180068ACA3 /* NPAppDelegate.h */,
 				CECC97EA18A16C180068ACA3 /* NPAppDelegate.m */,
 				CECC97EC18A16C180068ACA3 /* Main.storyboard */,
+				CE01D68618B425E1004E591F /* NPMenuViewController.h */,
+				CE01D68718B425E1004E591F /* NPMenuViewController.m */,
 				CECC97EF18A16C180068ACA3 /* NPFirstViewController.h */,
 				CECC97F018A16C180068ACA3 /* NPFirstViewController.m */,
 				CECC97F218A16C180068ACA3 /* NPSecondViewController.h */,
@@ -273,12 +318,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE01D68818B425E1004E591F /* NPMenuViewController.m in Sources */,
+				CE01D68318B424A7004E591F /* ECSlidingSegue.m in Sources */,
 				CEE98BEA18B2C91200B31715 /* News.m in Sources */,
+				CE01D68418B424A7004E591F /* ECSlidingViewController.m in Sources */,
 				CECC97F418A16C180068ACA3 /* NPSecondViewController.m in Sources */,
+				CE01D68218B424A7004E591F /* ECSlidingInteractiveTransition.m in Sources */,
 				CEE98BEE18B2CBD900B31715 /* NewsManager.m in Sources */,
 				CECC97F118A16C180068ACA3 /* NPFirstViewController.m in Sources */,
 				CECC97EB18A16C180068ACA3 /* NPAppDelegate.m in Sources */,
+				CE01D68018B424A7004E591F /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				CECC97E718A16C180068ACA3 /* main.m in Sources */,
+				CE01D68518B424A7004E591F /* UIViewController+ECSlidingViewController.m in Sources */,
+				CE01D68118B424A7004E591F /* ECSlidingAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
