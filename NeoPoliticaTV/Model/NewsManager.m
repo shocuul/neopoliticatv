@@ -7,27 +7,59 @@
 //
 
 #import "NewsManager.h"
+#import "News.h"
 
+@interface NewsManager()
+@property (nonatomic,strong) NSMutableArray *newsList;
 
+@end
 @implementation NewsManager
 
--(void)newsWithSlug:(NSString *)slug{
-    NSData *newsInCategory = [[NSData alloc]initWithContentsOfURL:[self urlforSlug:slug]];
-    NSError *error;
-    NSMutableDictionary *allNews = [NSJSONSerialization JSONObjectWithData:newsInCategory options:kNilOptions error:&error];
-    
-    if (error) {
-        NSLog(@"%@",[error localizedDescription]);
-    }else {
-        NSArray *posts = allNews[@"posts"];
-        for (NSDictionary *thenews in posts) {
-            NSLog(@"-------");
-            NSLog(@"id:%@", thenews[@"id"]);
-            NSLog(@"title:%@",thenews[@"title"]);
-            NSLog(@"contenido:%@",thenews[@"content"]);
-            NSLog(@"---------");
+-(NSMutableArray *)newsList{
+    if (!_newsList) {
+        _newsList = [[NSMutableArray alloc]init];
+    }
+    return _newsList;
+}
+
+-(instancetype)initWithSlug:(NSString *)slug{
+    self = [super init];
+    if (self) {
+        NSData *newsInCategory = [[NSData alloc]initWithContentsOfURL:[self urlforSlug:slug]];
+        NSError *error;
+        NSMutableDictionary *allNews = [NSJSONSerialization JSONObjectWithData:newsInCategory options:kNilOptions error:&error];
+        
+        if (error) {
+            NSLog(@"%@",[error localizedDescription]);
+        }else {
+            NSArray *posts = allNews[@"posts"];
+            for (NSDictionary *thenews in posts) {
+                News *temp = [[News alloc]init];
+                temp.idNew = [thenews[@"id"]integerValue];
+                temp.title = thenews[@"title"];
+                temp.content = thenews[@"content"];
+                temp.url = thenews[@"url"];
+                
+                
+                //NSLog(@"-------");
+                //NSLog(@"id:%@", thenews[@"id"]);
+                //NSLog(@"title:%@",thenews[@"title"]);
+                //NSLog(@"contenido:%@",thenews[@"content"]);
+                // NSLog(@"Extra:%@",thenews[@"attachments"]);
+                //NSLog(@"---------");
+                for (NSDictionary *images in thenews[@"attachments"]) {
+                  //  NSLog(@"Images:%@",images[@"images"]);
+                   // NSLog(@"URL:%@",images[@"url"]);
+                    temp.image = images[@"url"];
+                }
+                [self.newsList addObject:temp];
+            }
         }
     }
+    for (News *log in self.newsList) {
+        NSLog(@"%lu",(unsigned long)log.idNew);
+    }
+    return self;
 }
 
 +(NSArray *)validSlug{
@@ -42,5 +74,6 @@
         return nil;
     }
 }
+
 
 @end

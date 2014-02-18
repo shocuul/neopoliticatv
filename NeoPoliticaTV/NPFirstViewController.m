@@ -20,9 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NewsManager *news = [[NewsManager alloc]init];
+    NewsManager *news = [[NewsManager alloc]initWithSlug:@"local"];
     
-    [news newsWithSlug:@"local"];
     
     
 }

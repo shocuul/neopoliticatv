@@ -10,7 +10,7 @@
 #import "News.h"
 
 @interface NewsManager : NSObject
--(void)newsWithSlug:(NSString *)slug;
+-(instancetype)initWithSlug:(NSString *)slug;
 +(NSArray *)validSlug;
 
 @end
