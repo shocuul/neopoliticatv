@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "news paper.png"
+      "filename" : "menubackground.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "news paper-1.png"
+      "filename" : "menubackgroundHD.png"
     }
   ],
   "info" : {

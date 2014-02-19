@@ -7,6 +7,7 @@
 //
 
 #import "NPNewsViewController.h"
+#import "SWRevealViewController.h"
 
 @interface NPNewsViewController ()
 
@@ -26,12 +27,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //_sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
+    
+    _sidebarButton.target = self.revealViewController;
+    _sidebarButton.action = @selector(revealToggle:);
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
 }
 
 - (void)didReceiveMemoryWarning

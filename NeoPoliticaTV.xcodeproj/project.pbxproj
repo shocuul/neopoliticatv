@@ -9,13 +9,6 @@
 /* Begin PBXBuildFile section */
 		6421F45118B462A200562207 /* NPNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6421F45018B462A200562207 /* NPNewsViewController.m */; };
 		6421F45418B4696900562207 /* NPVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6421F45318B4696900562207 /* NPVideoViewController.m */; };
-		CE01D68018B424A7004E591F /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */; };
-		CE01D68118B424A7004E591F /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67618B424A7004E591F /* ECSlidingAnimationController.m */; };
-		CE01D68218B424A7004E591F /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67918B424A7004E591F /* ECSlidingInteractiveTransition.m */; };
-		CE01D68318B424A7004E591F /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67B18B424A7004E591F /* ECSlidingSegue.m */; };
-		CE01D68418B424A7004E591F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67D18B424A7004E591F /* ECSlidingViewController.m */; };
-		CE01D68518B424A7004E591F /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67F18B424A7004E591F /* UIViewController+ECSlidingViewController.m */; };
-		CE01D68818B425E1004E591F /* NPMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D68718B425E1004E591F /* NPMenuViewController.m */; };
 		CECC97DB18A16C170068ACA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DA18A16C170068ACA3 /* Foundation.framework */; };
 		CECC97DD18A16C180068ACA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DC18A16C180068ACA3 /* CoreGraphics.framework */; };
 		CECC97DF18A16C180068ACA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DE18A16C180068ACA3 /* UIKit.framework */; };
@@ -31,6 +24,9 @@
 		CECC97FF18A16C180068ACA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECC97DE18A16C180068ACA3 /* UIKit.framework */; };
 		CECC980718A16C180068ACA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECC980518A16C180068ACA3 /* InfoPlist.strings */; };
 		CECC980918A16C180068ACA3 /* NeoPoliticaTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC980818A16C180068ACA3 /* NeoPoliticaTVTests.m */; };
+		CEE54C6818B53F4800D8C102 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE54C6718B53F4800D8C102 /* SWRevealViewController.m */; };
+		CEE54C6A18B5486C00D8C102 /* FINAL05.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE54C6918B5486C00D8C102 /* FINAL05.png */; };
+		CEE54C6E18B5697D00D8C102 /* NPSidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE54C6D18B5697D00D8C102 /* NPSidebarViewController.m */; };
 		CEE98BEA18B2C91200B31715 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE98BE918B2C91200B31715 /* News.m */; };
 		CEE98BEE18B2CBD900B31715 /* NewsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE98BED18B2CBD900B31715 /* NewsManager.m */; };
 /* End PBXBuildFile section */
@@ -50,21 +46,6 @@
 		6421F45018B462A200562207 /* NPNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPNewsViewController.m; sourceTree = "<group>"; };
 		6421F45218B4696900562207 /* NPVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPVideoViewController.h; sourceTree = "<group>"; };
 		6421F45318B4696900562207 /* NPVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPVideoViewController.m; sourceTree = "<group>"; };
-		CE01D67318B424A7004E591F /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
-		CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
-		CE01D67518B424A7004E591F /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
-		CE01D67618B424A7004E591F /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
-		CE01D67718B424A7004E591F /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
-		CE01D67818B424A7004E591F /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
-		CE01D67918B424A7004E591F /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
-		CE01D67A18B424A7004E591F /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
-		CE01D67B18B424A7004E591F /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
-		CE01D67C18B424A7004E591F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
-		CE01D67D18B424A7004E591F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
-		CE01D67E18B424A7004E591F /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
-		CE01D67F18B424A7004E591F /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
-		CE01D68618B425E1004E591F /* NPMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMenuViewController.h; sourceTree = "<group>"; };
-		CE01D68718B425E1004E591F /* NPMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMenuViewController.m; sourceTree = "<group>"; };
 		CECC97D718A16C170068ACA3 /* NeoPoliticaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoPoliticaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECC97DA18A16C170068ACA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CECC97DC18A16C180068ACA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,6 +67,11 @@
 		CECC980418A16C180068ACA3 /* NeoPoliticaTVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeoPoliticaTVTests-Info.plist"; sourceTree = "<group>"; };
 		CECC980618A16C180068ACA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CECC980818A16C180068ACA3 /* NeoPoliticaTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoPoliticaTVTests.m; sourceTree = "<group>"; };
+		CEE54C6618B53F4800D8C102 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CEE54C6718B53F4800D8C102 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CEE54C6918B5486C00D8C102 /* FINAL05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FINAL05.png; sourceTree = "<group>"; };
+		CEE54C6C18B5697D00D8C102 /* NPSidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPSidebarViewController.h; sourceTree = "<group>"; };
+		CEE54C6D18B5697D00D8C102 /* NPSidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPSidebarViewController.m; sourceTree = "<group>"; };
 		CEE98BE818B2C91200B31715 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = News.h; path = NeoPoliticaTV/Model/News.h; sourceTree = "<group>"; };
 		CEE98BE918B2C91200B31715 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = News.m; path = NeoPoliticaTV/Model/News.m; sourceTree = "<group>"; };
 		CEE98BEC18B2CBD900B31715 /* NewsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsManager.h; path = NeoPoliticaTV/Model/NewsManager.h; sourceTree = "<group>"; };
@@ -116,26 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE01D67218B424A7004E591F /* ECSlidingViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CE01D67318B424A7004E591F /* ECPercentDrivenInteractiveTransition.h */,
-				CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */,
-				CE01D67518B424A7004E591F /* ECSlidingAnimationController.h */,
-				CE01D67618B424A7004E591F /* ECSlidingAnimationController.m */,
-				CE01D67718B424A7004E591F /* ECSlidingConstants.h */,
-				CE01D67818B424A7004E591F /* ECSlidingInteractiveTransition.h */,
-				CE01D67918B424A7004E591F /* ECSlidingInteractiveTransition.m */,
-				CE01D67A18B424A7004E591F /* ECSlidingSegue.h */,
-				CE01D67B18B424A7004E591F /* ECSlidingSegue.m */,
-				CE01D67C18B424A7004E591F /* ECSlidingViewController.h */,
-				CE01D67D18B424A7004E591F /* ECSlidingViewController.m */,
-				CE01D67E18B424A7004E591F /* UIViewController+ECSlidingViewController.h */,
-				CE01D67F18B424A7004E591F /* UIViewController+ECSlidingViewController.m */,
-			);
-			path = ECSlidingViewController;
-			sourceTree = "<group>";
-		};
 		CECC97CE18A16C170068ACA3 = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +110,7 @@
 				CECC980218A16C180068ACA3 /* NeoPoliticaTVTests */,
 				CECC97D918A16C170068ACA3 /* Frameworks */,
 				CECC97D818A16C170068ACA3 /* Products */,
-				CE01D67218B424A7004E591F /* ECSlidingViewController */,
+				CEE54C6518B53F4800D8C102 /* Library */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,12 +140,12 @@
 				CECC97E918A16C180068ACA3 /* NPAppDelegate.h */,
 				CECC97EA18A16C180068ACA3 /* NPAppDelegate.m */,
 				CECC97EC18A16C180068ACA3 /* Main.storyboard */,
+				CEE54C6C18B5697D00D8C102 /* NPSidebarViewController.h */,
+				CEE54C6D18B5697D00D8C102 /* NPSidebarViewController.m */,
 				6421F45218B4696900562207 /* NPVideoViewController.h */,
 				6421F45318B4696900562207 /* NPVideoViewController.m */,
 				6421F44F18B462A200562207 /* NPNewsViewController.h */,
 				6421F45018B462A200562207 /* NPNewsViewController.m */,
-				CE01D68618B425E1004E591F /* NPMenuViewController.h */,
-				CE01D68718B425E1004E591F /* NPMenuViewController.m */,
 				CECC97EF18A16C180068ACA3 /* NPFirstViewController.h */,
 				CECC97F018A16C180068ACA3 /* NPFirstViewController.m */,
 				CECC97F218A16C180068ACA3 /* NPSecondViewController.h */,
@@ -193,6 +159,7 @@
 		CECC97E118A16C180068ACA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEE54C6B18B5487600D8C102 /* Imagenes */,
 				CECC97E218A16C180068ACA3 /* NeoPoliticaTV-Info.plist */,
 				CECC97E318A16C180068ACA3 /* InfoPlist.strings */,
 				CECC97E618A16C180068ACA3 /* main.m */,
@@ -217,6 +184,24 @@
 				CECC980518A16C180068ACA3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE54C6518B53F4800D8C102 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CEE54C6618B53F4800D8C102 /* SWRevealViewController.h */,
+				CEE54C6718B53F4800D8C102 /* SWRevealViewController.m */,
+			);
+			name = Library;
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		CEE54C6B18B5487600D8C102 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				CEE54C6918B5486C00D8C102 /* FINAL05.png */,
+			);
+			name = Imagenes;
 			sourceTree = "<group>";
 		};
 		CEE98BEB18B2C91E00B31715 /* Model */ = {
@@ -308,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECC97F618A16C180068ACA3 /* Images.xcassets in Resources */,
+				CEE54C6A18B5486C00D8C102 /* FINAL05.png in Resources */,
 				CECC97E518A16C180068ACA3 /* InfoPlist.strings in Resources */,
 				CECC97EE18A16C180068ACA3 /* Main.storyboard in Resources */,
 			);
@@ -328,21 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE01D68818B425E1004E591F /* NPMenuViewController.m in Sources */,
-				CE01D68318B424A7004E591F /* ECSlidingSegue.m in Sources */,
 				6421F45418B4696900562207 /* NPVideoViewController.m in Sources */,
 				CEE98BEA18B2C91200B31715 /* News.m in Sources */,
-				CE01D68418B424A7004E591F /* ECSlidingViewController.m in Sources */,
 				CECC97F418A16C180068ACA3 /* NPSecondViewController.m in Sources */,
-				CE01D68218B424A7004E591F /* ECSlidingInteractiveTransition.m in Sources */,
 				CEE98BEE18B2CBD900B31715 /* NewsManager.m in Sources */,
 				CECC97F118A16C180068ACA3 /* NPFirstViewController.m in Sources */,
 				CECC97EB18A16C180068ACA3 /* NPAppDelegate.m in Sources */,
-				CE01D68018B424A7004E591F /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				CEE54C6818B53F4800D8C102 /* SWRevealViewController.m in Sources */,
 				CECC97E718A16C180068ACA3 /* main.m in Sources */,
 				6421F45118B462A200562207 /* NPNewsViewController.m in Sources */,
-				CE01D68518B424A7004E591F /* UIViewController+ECSlidingViewController.m in Sources */,
-				CE01D68118B424A7004E591F /* ECSlidingAnimationController.m in Sources */,
+				CEE54C6E18B5697D00D8C102 /* NPSidebarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ECSlidingViewController.h"
+
 
 @interface NPNewsViewController : UITableViewController
-- (IBAction)menuButtonTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+
 
 @end
