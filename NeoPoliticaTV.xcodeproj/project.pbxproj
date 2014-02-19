@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6421F45118B462A200562207 /* NPNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6421F45018B462A200562207 /* NPNewsViewController.m */; };
+		6421F45418B4696900562207 /* NPVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6421F45318B4696900562207 /* NPVideoViewController.m */; };
 		CE01D68018B424A7004E591F /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */; };
 		CE01D68118B424A7004E591F /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67618B424A7004E591F /* ECSlidingAnimationController.m */; };
 		CE01D68218B424A7004E591F /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01D67918B424A7004E591F /* ECSlidingInteractiveTransition.m */; };
@@ -44,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6421F44F18B462A200562207 /* NPNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPNewsViewController.h; sourceTree = "<group>"; };
+		6421F45018B462A200562207 /* NPNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPNewsViewController.m; sourceTree = "<group>"; };
+		6421F45218B4696900562207 /* NPVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPVideoViewController.h; sourceTree = "<group>"; };
+		6421F45318B4696900562207 /* NPVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPVideoViewController.m; sourceTree = "<group>"; };
 		CE01D67318B424A7004E591F /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
 		CE01D67418B424A7004E591F /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
 		CE01D67518B424A7004E591F /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
@@ -168,6 +174,10 @@
 				CECC97E918A16C180068ACA3 /* NPAppDelegate.h */,
 				CECC97EA18A16C180068ACA3 /* NPAppDelegate.m */,
 				CECC97EC18A16C180068ACA3 /* Main.storyboard */,
+				6421F45218B4696900562207 /* NPVideoViewController.h */,
+				6421F45318B4696900562207 /* NPVideoViewController.m */,
+				6421F44F18B462A200562207 /* NPNewsViewController.h */,
+				6421F45018B462A200562207 /* NPNewsViewController.m */,
 				CE01D68618B425E1004E591F /* NPMenuViewController.h */,
 				CE01D68718B425E1004E591F /* NPMenuViewController.m */,
 				CECC97EF18A16C180068ACA3 /* NPFirstViewController.h */,
@@ -320,6 +330,7 @@
 			files = (
 				CE01D68818B425E1004E591F /* NPMenuViewController.m in Sources */,
 				CE01D68318B424A7004E591F /* ECSlidingSegue.m in Sources */,
+				6421F45418B4696900562207 /* NPVideoViewController.m in Sources */,
 				CEE98BEA18B2C91200B31715 /* News.m in Sources */,
 				CE01D68418B424A7004E591F /* ECSlidingViewController.m in Sources */,
 				CECC97F418A16C180068ACA3 /* NPSecondViewController.m in Sources */,
@@ -329,6 +340,7 @@
 				CECC97EB18A16C180068ACA3 /* NPAppDelegate.m in Sources */,
 				CE01D68018B424A7004E591F /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				CECC97E718A16C180068ACA3 /* main.m in Sources */,
+				6421F45118B462A200562207 /* NPNewsViewController.m in Sources */,
 				CE01D68518B424A7004E591F /* UIViewController+ECSlidingViewController.m in Sources */,
 				CE01D68118B424A7004E591F /* ECSlidingAnimationController.m in Sources */,
 			);

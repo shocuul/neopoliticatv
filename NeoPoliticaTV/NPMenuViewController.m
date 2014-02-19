@@ -43,7 +43,7 @@
 -(NSArray *)menuItems{
     if (_menuItems) return _menuItems;
     
-    _menuItems = @[@"Transitions",@"Settings"];
+    _menuItems = @[@"Noticias",@"Videos"];
     
     return _menuItems;
     
@@ -62,6 +62,20 @@
     cell.textLabel.text = menuItem;
     [cell setBackgroundColor:[UIColor clearColor]];
     return cell;
+}
+#pragma mark - UITableViewDelegate
+
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *menuItem = self.menuItems[indexPath.row];
+    
+    self.slidingViewController.topViewController.view.layer.transform = CATransform3DMakeScale(1, 1, 1);
+    
+    if ([menuItem isEqualToString:@"Noticias"]) {
+        self.slidingViewController.topViewController = self.transitionNavigationController;
+    }else if ([menuItem isEqualToString:@"Videos"]){
+        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"NPVideoViewController"];
+    }
+    [self.slidingViewController resetTopViewAnimated:YES];
 }
 
 @end
